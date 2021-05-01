@@ -9246,6 +9246,11 @@ react-scroll@^1.8.2:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-skills@^1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/react-skills/-/react-skills-1.27.0.tgz#31c7aba179f0e833f9eb4e3634e9644bdd05bf17"
+  integrity sha512-kdHyAi7TaAjXU8fUyZf7BPNgGKGl2E1OHIZRMDvU344zxwj5+0Qe76YcYxAjjdD26PvmT+3uOLUfhvheLXJVzA==
+
 react-transition-group@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"

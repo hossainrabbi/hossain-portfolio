@@ -17,6 +17,7 @@
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
+    "react-skills": "^1.27.0",
     "typewriter-effect": "^2.17.0",
     "web-vitals": "^1.0.1"
   },

@@ -5,10 +5,11 @@ import home_image from '../../images/hossain.png';
 import './Home.css';
 import Particles from 'react-particles-js';
 import particleConfig from '../../config/particles.confog';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <header className="home">
+        <header className="home" id="home">
             <Particles params={particleConfig} />
             <div className="home-area">
                 <Container>
@@ -35,9 +36,15 @@ const Home = () => {
                 </Container>
             </div>
             <div className="scroll-down">
-                <a href="#about">
+                <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
                     <i></i>
-                </a>
+                </Link>
             </div>
         </header>
     );

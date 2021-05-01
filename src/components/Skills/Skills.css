@@ -1,0 +1,25 @@
+.custom-skill-bar div div {
+    height: 20px !important;
+    border-radius: 0 !important;
+}
+
+.custom-skill-bar div div h5 {
+    font-size: 15px !important;
+    text-align: left;
+    height: inherit;
+    padding: 1px 5px;
+}
+
+.custom-skill-bar div span {
+    font-size: 13px !important;
+    line-height: 24px !important;
+    height: inherit !important;
+}
+
+.custom-skill-bar > div > div > div > div {
+    width: 120px !important;
+}
+
+.custom-skill-bar > div > div > div > div:last-child {
+    background-color: var(--gray-color) !important;
+}

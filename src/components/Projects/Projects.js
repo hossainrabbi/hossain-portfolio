@@ -13,7 +13,7 @@ import ProjectLink from './ProjectLink';
 
 const Projects = () => {
     return (
-        <section className="projects mt-5">
+        <section className="projects" id="projects">
             <Container>
                 <div className="main-title">
                     <h2 className="text-center">Projects</h2>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </Col>
                 </Row>
 
-                <Row className="align-items-center mb-5 pb-5">
+                <Row className="align-items-center">
                     <Col md={7} className="project-image">
                         <img src={pabna_foods} alt="Pabna Foods" />
                     </Col>

@@ -1,4 +1,10 @@
 .nav-bar .navbar-brand,
 .nav-bar .nav-link {
     color: var(--light-color) !important;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.nav-bar .active {
+    color: var(--main-color) !important;
 }

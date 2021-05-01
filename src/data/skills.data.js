@@ -1,27 +1,55 @@
-export const skills = [
+export const skills1 = [
     {
-        id: 1,
-        title: 'JavaScript',
-        skill: 85,
+        name: 'HTML5',
+        level: 90,
+        color: '#037fff',
     },
     {
-        id: 2,
-        title: 'React',
-        skill: 77,
+        name: 'CSS3',
+        level: 90,
+        color: '#037fff',
     },
     {
-        id: 3,
-        title: 'ExpressJS',
-        skill: 50,
+        name: 'BootStrap',
+        level: 85,
+        color: '#037fff',
     },
     {
-        id: 4,
-        title: 'MongoDB',
-        skill: 50,
+        name: 'SCSS',
+        level: 50,
+        color: '#037fff',
     },
     {
-        id: 5,
-        title: 'Bootstrap',
-        skill: 90,
+        name: 'JavaScript',
+        level: 70,
+        color: '#037fff',
+    },
+];
+
+export const skills2 = [
+    {
+        name: 'React.js',
+        level: 80,
+        color: '#037fff',
+    },
+    {
+        name: 'React BootStrap',
+        level: 85,
+        color: '#037fff',
+    },
+    {
+        name: 'Material ui',
+        level: 55,
+        color: '#037fff',
+    },
+    {
+        name: 'Express.js',
+        level: 40,
+        color: '#037fff',
+    },
+    {
+        name: 'MongoDB',
+        level: 35,
+        color: '#037fff',
     },
 ];

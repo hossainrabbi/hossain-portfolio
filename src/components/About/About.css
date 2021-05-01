@@ -1,6 +1,11 @@
 /* About Component */
-.about .about-content {
-    padding: 20px 0;
+.about {
+    background-color: var(--light-dark);
+}
+
+.about .main-title h2::before {
+    left: 0;
+    transform: translateX(0);
 }
 
 .about .about-content h2 span {
@@ -15,31 +20,4 @@
 
 .about .skill-box:last-child {
     padding-bottom: 0;
-}
-
-/* Skill Component*/
-.skill:last-child {
-    margin-bottom: 0;
-}
-
-.skill h6 {
-    color: var(--dark-color);
-    margin-bottom: 3px;
-}
-
-.skill .skill-bar {
-    height: 10px;
-    position: relative;
-}
-
-.skill .skill-bar span {
-    position: absolute;
-    right: 0;
-    top: -20px;
-    font-size: 12px;
-}
-
-.skill .skill-bar-in {
-    height: 100%;
-    background-color: var(--gray-color);
 }
