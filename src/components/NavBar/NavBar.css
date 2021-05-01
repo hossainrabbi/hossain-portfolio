@@ -1,0 +1,4 @@
+.nav-bar .navbar-brand,
+.nav-bar .nav-link {
+    color: var(--light-color) !important;
+}
