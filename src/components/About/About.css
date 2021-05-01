@@ -1,0 +1,45 @@
+/* About Component */
+.about .about-content {
+    padding: 20px 0;
+}
+
+.about .about-content h2 span {
+    font-weight: 400 !important;
+}
+
+.about .skill-box {
+    max-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about .skill-box:last-child {
+    padding-bottom: 0;
+}
+
+/* Skill Component*/
+.skill:last-child {
+    margin-bottom: 0;
+}
+
+.skill h6 {
+    color: var(--dark-color);
+    margin-bottom: 3px;
+}
+
+.skill .skill-bar {
+    height: 10px;
+    position: relative;
+}
+
+.skill .skill-bar span {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    font-size: 12px;
+}
+
+.skill .skill-bar-in {
+    height: 100%;
+    background-color: var(--gray-color);
+}

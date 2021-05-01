@@ -3,15 +3,67 @@
 :root {
     --dark-color: #0a192f;
     --light-color: #ffffff;
+    --text-light: #525557;
+    --gray-color: #e9ecef;
+    --main-color: #037fff;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--dark-color);
+}
+
+p {
+    color: var(--text-light) !important;
+    letter-spacing: 0.2px;
 }
 
 img {
     max-width: 100%;
     min-height: 100%;
     object-fit: contain;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+/* Others CSS Style */
+.main-title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-title h2::before {
+    content: '';
+    width: 45px;
+    height: 5px;
+    background: var(--main-color);
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
 }
