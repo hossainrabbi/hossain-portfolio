@@ -9,7 +9,7 @@ const NavBar = () => {
     // };
 
     return (
-        <Navbar className="nav-bar" expand="lg" sticky="top">
+        <Navbar className="nav-bar" expand="lg" fixed="top">
             <Container>
                 <Navbar.Brand href="#home">Hossain</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

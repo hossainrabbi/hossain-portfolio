@@ -17,6 +17,7 @@
     height: 170px;
     border-radius: 50%;
     border: 5px solid var(--light-color);
+    object-fit: contain;
 }
 
 .home .home-content h1 {

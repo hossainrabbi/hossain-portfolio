@@ -1,0 +1,26 @@
+.projects .project-image {
+    height: 24rem !important;
+    overflow-y: scroll;
+    flex: none;
+    object-fit: contain;
+}
+
+.projects .technology {
+    display: inline-block;
+    background-color: var(--gray-color);
+    margin: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: var(--main-color);
+}
+
+/* Project Link Component */
+.project-link a {
+    color: var(--main-color);
+    margin-right: 10px;
+    transition: color var(--transition);
+}
+
+.project-link a:hover {
+    color: var(--dark-color);
+}
