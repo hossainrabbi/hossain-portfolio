@@ -4,11 +4,14 @@ import Typewriter from 'typewriter-effect';
 import NavBar from '../NavBar/NavBar';
 import home_image from '../../images/hossain.png';
 import './Home.css';
+import Particles from 'react-particles-js';
+import particleConfig from '../../config/particles.confog';
 
 const Home = () => {
     return (
         <header className="home">
             <NavBar />
+            <Particles params={particleConfig} />
             <div className="home-area">
                 <Container>
                     <div className="home-content text-center">
@@ -32,6 +35,11 @@ const Home = () => {
                         </h3>
                     </div>
                 </Container>
+            </div>
+            <div className="scroll-down">
+                <a href="#about">
+                    <i></i>
+                </a>
             </div>
         </header>
     );
