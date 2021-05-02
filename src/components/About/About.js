@@ -1,7 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { social } from '../../data/social.data';
-import SocialLink from '../SocialLink/SocialLink';
 import hossain from '../../images/hossainRabbi.jpg';
 import './About.css';
 import { address1, address2 } from '../../data/address.data';
@@ -58,7 +56,7 @@ const About = () => {
                                     />
                                 </Col>
                             </Row>
-                            <div className="mt-3">
+                            <div className="mt-4">
                                 <a
                                     href="https://drive.google.com/uc?export=download&id=1fVo3bM-KbzamcjqNei7nmERnqkjfTRV0"
                                     target="_blank"
@@ -68,11 +66,6 @@ const About = () => {
                                     Download Resume
                                 </a>
                             </div>
-                            <ul className="social-icon mt-3">
-                                {social.map((item) => (
-                                    <SocialLink {...item} key={item.id} />
-                                ))}
-                            </ul>
                         </div>
                     </Col>
                 </Row>

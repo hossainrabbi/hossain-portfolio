@@ -36,7 +36,7 @@ const Projects = () => {
                     </Col>
                 </Row>
 
-                <Row className="align-items-center mb-5 pb-5">
+                <Row className="align-items-center flex-column-reverse flex-md-row mb-5 pb-5">
                     <Col md={6} className="project-details pl-4">
                         <ProjectDetail
                             title="Street Riders"

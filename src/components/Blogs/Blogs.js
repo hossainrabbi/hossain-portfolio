@@ -11,9 +11,9 @@ const Blogs = () => {
                 <div className="main-title">
                     <h2 className="text-center">Article</h2>
                 </div>
-                <Row>
+                <Row className="justify-content-center">
                     {article.map((blog) => (
-                        <Col md={4}>
+                        <Col lg={4} className="mb-1" md={6} key={blog.id}>
                             <Blog {...blog} />
                         </Col>
                     ))}

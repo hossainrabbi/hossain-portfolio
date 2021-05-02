@@ -23,3 +23,22 @@
 .nav-bar.active-nav .active {
     color: var(--main-color) !important;
 }
+
+.nav-bar .custom-btn {
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+@media (max-width: 992px) {
+    .nav-bar .navbar-toggler {
+        background-color: var(--light-color);
+    }
+    .nav-bar .navbar-collapse {
+        background-color: var(--dark-color) !important;
+        text-align: center;
+    }
+    .nav-bar.active-nav .navbar-collapse {
+        background-color: var(--light-color) !important;
+        text-align: left;
+    }
+}

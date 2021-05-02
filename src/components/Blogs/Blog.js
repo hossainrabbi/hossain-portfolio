@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const Blog = ({ title, desc, image, link }) => {
     return (
-        <Card className="blog">
+        <Card className="blog mb-4">
             <Card.Img variant="top" src={image} alt={title} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>

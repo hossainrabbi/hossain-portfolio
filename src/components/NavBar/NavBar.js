@@ -23,12 +23,13 @@ const NavBar = () => {
             fixed="top"
         >
             <Container>
-                <Navbar.Brand
-                    href="#"
+                <Link
+                    to="/"
+                    className="navbar-brand"
                     onClick={() => animateScroll.scrollToTop()}
                 >
                     Hossain
-                </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
@@ -98,6 +99,14 @@ const NavBar = () => {
                         >
                             Contact
                         </Link>
+                        <a
+                            href="https://drive.google.com/uc?export=download&id=1fVo3bM-KbzamcjqNei7nmERnqkjfTRV0"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn custom-btn"
+                        >
+                            Resume
+                        </a>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

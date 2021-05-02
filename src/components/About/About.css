@@ -1,8 +1,4 @@
 /* About Component */
-.about {
-    background-color: var(--light-dark);
-}
-
 .about .main-title h2::before {
     left: 0;
     transform: translateX(0);
@@ -20,4 +16,10 @@
 
 .about .skill-box:last-child {
     padding-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .about .main-title h2 {
+        margin-bottom: 10px;
+    }
 }

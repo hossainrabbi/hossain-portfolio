@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--dark-color);
+}
+
+footer p {
+    color: var(--gray-color) !important;
+}
