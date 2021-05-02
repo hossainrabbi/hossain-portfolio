@@ -12,6 +12,8 @@
     "@testing-library/user-event": "^12.1.10",
     "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
+    "emailjs-com": "^2.6.4",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
@@ -20,6 +22,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-skills": "^1.27.0",
+    "sweetalert2": "^10.16.6",
     "typewriter-effect": "^2.17.0",
     "web-vitals": "^1.0.1"
   },
