@@ -6,7 +6,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <section>
+        <section id="skills">
             <Container>
                 <div className="main-title">
                     <h2 className="text-center">My Skills</h2>

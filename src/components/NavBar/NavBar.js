@@ -39,6 +39,17 @@ const NavBar = () => {
                             About
                         </Link>
                         <Link
+                            to="skills"
+                            className="nav-link"
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            Skills
+                        </Link>
+                        <Link
                             to="projects"
                             className="nav-link"
                             activeClass="active"

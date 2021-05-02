@@ -2,11 +2,14 @@
     background-color: var(--light-dark);
 }
 
-.projects .project-image {
-    height: 24rem !important;
-    overflow-y: scroll;
-    flex: none;
-    object-fit: contain;
+.project-image {
+    width: 100%;
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
+}
+
+.project-image:hover {
+    box-shadow: var(--shadow-dark);
 }
 
 .projects .technology {

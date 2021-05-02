@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap');
 
 :root {
-    --dark-color: #0a192f;
+    --dark-color: #222831;
     --light-color: #ffffff;
     --light-dark: #f5f8fd;
     --text-light: #525557;
     --gray-color: #e9ecef;
     --main-color: #037fff;
+    --shadow-dark: 0 0 20px #00000038;
+    --shadow-light: 0 0 5px #00000023;
     --transition: 0.3s;
 }
 
@@ -30,7 +32,7 @@ p {
 
 img {
     max-width: 100%;
-    min-height: 100%;
+    max-height: 100%;
     object-fit: cover;
 }
 
@@ -70,6 +72,23 @@ section {
 }
 
 /* Others CSS Style */
+.custom-btn {
+    font-size: 15px;
+    padding: 8px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0;
+    color: var(--light-color);
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+}
+
+.custom-btn:hover {
+    color: var(--main-color);
+    background-color: transparent;
+}
+
 .main-title h2 {
     font-size: 40px;
     font-weight: 500;

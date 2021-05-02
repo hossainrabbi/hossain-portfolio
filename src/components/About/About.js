@@ -58,6 +58,14 @@ const About = () => {
                                     />
                                 </Col>
                             </Row>
+                            <div className="mt-3">
+                                <a href="a" className="btn custom-btn">
+                                    Get In Touch
+                                </a>
+                                <a href="a" className="btn custom-btn">
+                                    Get In Touch
+                                </a>
+                            </div>
                             <ul className="social-icon mt-3">
                                 {social.map((item) => (
                                     <SocialLink {...item} key={item.id} />
