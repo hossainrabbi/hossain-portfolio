@@ -12,22 +12,10 @@ const Skills = () => {
                     <h2 className="text-center">My Skills</h2>
                 </div>
                 <Row>
-                    <Col
-                        md={6}
-                        className="custom-skill-bar"
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                    >
+                    <Col md={6} className="custom-skill-bar">
                         <SkillBars flat={true} skills={skills1} />
                     </Col>
-                    <Col
-                        md={6}
-                        className="custom-skill-bar"
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                    >
+                    <Col md={6} className="custom-skill-bar">
                         <SkillBars flat={true} skills={skills2} />
                     </Col>
                 </Row>

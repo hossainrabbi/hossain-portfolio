@@ -14,11 +14,10 @@ const About = () => {
                             src={hossain}
                             alt="hossain"
                             className="img-fluid img-thumbnail"
-                            data-aos="fade-right"
                         />
                     </Col>
                     <Col md={7}>
-                        <div data-aos="fade-left">
+                        <div>
                             <div className="main-title">
                                 <h2>About Me</h2>
                             </div>
