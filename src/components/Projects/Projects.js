@@ -31,7 +31,7 @@ const Projects = () => {
                     >
                         <ProjectDetail
                             title="FixTech"
-                            desc="A single-page application where people can book
+                            desc="A single-page Computer Services application where people can book
                             services but must pay when booking services. He will
                             be able to see his previous bookings and booking
                             status and people will be able to review them here."
@@ -50,7 +50,7 @@ const Projects = () => {
                     >
                         <ProjectDetail
                             title="Street Riders"
-                            desc="A single-page application. People will be able to
+                            desc="A single-page Riders Sharing application. People will be able to
                             move the car of their choice from one place to
                             another. There are 4 ways to go by train, car, bike,
                             and bus. A search of his destination will show how
@@ -80,7 +80,7 @@ const Projects = () => {
                     >
                         <ProjectDetail
                             title="Pabna Foods"
-                            desc="A single-page application. Where people can see
+                            desc="A single-page Online Food Delivery application. Where people can see
                             different food items, If you click on any food, you
                             will be able to see the details of the food and you
                             will be able to search the food by the name of the
