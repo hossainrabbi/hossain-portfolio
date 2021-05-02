@@ -4,4 +4,5 @@ footer {
 
 footer p {
     color: var(--gray-color) !important;
+    margin-bottom: 0;
 }
