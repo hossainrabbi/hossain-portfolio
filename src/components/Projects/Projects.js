@@ -6,9 +6,9 @@ import {
     RidersTechnology,
 } from '../../data/projects.data';
 import './Projects.css';
-import fixtech from '../../images/projects/fix_tech.jpg';
+import fixtech from '../../images/projects/fix_tech.png';
 import street_riders from '../../images/projects/street_riders.png';
-import pabna_foods from '../../images/projects/pabna_foods.jpg';
+import pabna_foods from '../../images/projects/pabna_foods.png';
 import ProjectDetail from './ProjectDetail';
 
 const Projects = () => {
