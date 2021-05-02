@@ -9,6 +9,11 @@
     color: var(--main-color) !important;
 }
 
+.nav-bar .custom-btn {
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
 .nav-bar.active-nav {
     background-color: var(--light-color);
     transition: 0.3s;
@@ -22,11 +27,6 @@
 
 .nav-bar.active-nav .active {
     color: var(--main-color) !important;
-}
-
-.nav-bar .custom-btn {
-    font-size: 14px;
-    padding: 8px 15px;
 }
 
 @media (max-width: 992px) {

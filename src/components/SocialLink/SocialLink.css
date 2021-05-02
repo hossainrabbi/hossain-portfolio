@@ -15,7 +15,7 @@
     background-color: var(--main-color);
     display: block;
     margin-right: 10px;
-    transition: all 0.5s;
+    transition: all var(--transition);
 }
 
 .social-icon li a:hover {

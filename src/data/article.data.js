@@ -9,6 +9,7 @@ export const article = [
         desc:
             'React is a library that used to create awesome user interface. hence it is a library it need some other…',
         image: javaScript,
+        aosProps: 'flip-left',
         link: 'https://reactjs.org/',
     },
     {
@@ -17,6 +18,7 @@ export const article = [
         desc:
             'React is a library that used to create awesome user interface. hence it is a library it need some other…',
         image: react,
+        aosProps: 'flip-up',
         link: 'https://reactjs.org/',
     },
     {
@@ -25,6 +27,7 @@ export const article = [
         desc:
             'React is a library that used to create awesome user interface. hence it is a library it need some other…',
         image: reactRouter,
+        aosProps: 'flip-right',
         link: 'https://reactjs.org/',
     },
 ];

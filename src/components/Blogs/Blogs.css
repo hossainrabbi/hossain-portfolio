@@ -1,4 +1,14 @@
 /* Blog Component */
+.blog {
+    border: none;
+    box-shadow: var(--shadow-light);
+    transition: all var(--transition);
+}
+
+.blog:hover {
+    box-shadow: var(--shadow-dark);
+}
+
 .blog img {
     height: 180px;
 }

@@ -1,14 +1,16 @@
-.project-image {
+.projects .project-image {
     width: 100%;
     box-shadow: var(--shadow-light);
     transition: var(--transition);
+    border-radius: var(--radius);
 }
 
-.project-image:hover {
+.projects .project-image:hover {
     box-shadow: var(--shadow-dark);
 }
 
-.projects .technology {
+/* Projects Technology Component */
+.technology {
     display: inline-block;
     background-color: var(--gray-color);
     margin: 3px;
@@ -35,7 +37,7 @@
 }
 
 @media (max-width: 768px) {
-    .project-image {
+    .projects .project-image {
         margin-bottom: 20px;
     }
 }

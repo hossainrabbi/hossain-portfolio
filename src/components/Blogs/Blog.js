@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-const Blog = ({ title, desc, image, link }) => {
+const Blog = ({ title, desc, image, link, aosProps }) => {
     return (
-        <Card className="blog mb-4">
+        <Card className="blog mb-4" data-aos={aosProps}>
             <Card.Img variant="top" src={image} alt={title} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>

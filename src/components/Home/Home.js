@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
-import home_image from '../../images/hossain.png';
-import './Home.css';
 import Particles from 'react-particles-js';
 import particleConfig from '../../config/particles.confog';
 import { Link } from 'react-scroll';
+import home_image from '../../images/hossain.png';
+import './Home.css';
 
 const Home = () => {
     return (

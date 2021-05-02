@@ -19,10 +19,18 @@ const Projects = () => {
                     <h2 className="text-center">Projects</h2>
                 </div>
                 <Row className="align-items-center mb-5 pb-5">
-                    <Col md={6} className="project-image">
+                    <Col
+                        md={6}
+                        className="project-image"
+                        data-aos="zoom-in-right"
+                    >
                         <img src={fixtech} alt="FixTech" />
                     </Col>
-                    <Col md={6} className="project-details pl-4">
+                    <Col
+                        md={6}
+                        className="project-details pl-4"
+                        data-aos="zoom-in-left"
+                    >
                         <ProjectDetail
                             title="FixTech"
                             desc="A single-page application where people can book
@@ -37,7 +45,11 @@ const Projects = () => {
                 </Row>
 
                 <Row className="align-items-center flex-column-reverse flex-md-row mb-5 pb-5">
-                    <Col md={6} className="project-details pl-4">
+                    <Col
+                        md={6}
+                        className="project-details pl-4"
+                        data-aos="zoom-in-right"
+                    >
                         <ProjectDetail
                             title="Street Riders"
                             desc="A single-page application. People will be able to
@@ -50,16 +62,28 @@ const Projects = () => {
                             liveSite="https://street-riders.web.app/"
                         />
                     </Col>
-                    <Col md={6} className="project-image">
+                    <Col
+                        md={6}
+                        className="project-image"
+                        data-aos="zoom-in-left"
+                    >
                         <img src={street_riders} alt="Street Riders" />
                     </Col>
                 </Row>
 
                 <Row className="align-items-center">
-                    <Col md={6} className="project-image">
+                    <Col
+                        md={6}
+                        className="project-image"
+                        data-aos="zoom-in-right"
+                    >
                         <img src={pabna_foods} alt="Pabna Foods" />
                     </Col>
-                    <Col md={6} className="project-details pl-4">
+                    <Col
+                        md={6}
+                        className="project-details pl-4"
+                        data-aos="zoom-in-left"
+                    >
                         <ProjectDetail
                             title="Pabna Foods"
                             desc="A single-page application. Where people can see
