@@ -59,11 +59,13 @@ const About = () => {
                                 </Col>
                             </Row>
                             <div className="mt-3">
-                                <a href="a" className="btn custom-btn">
-                                    Get In Touch
-                                </a>
-                                <a href="a" className="btn custom-btn">
-                                    Get In Touch
+                                <a
+                                    href="https://drive.google.com/uc?export=download&id=1fVo3bM-KbzamcjqNei7nmERnqkjfTRV0"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn custom-btn"
+                                >
+                                    Download Resume
                                 </a>
                             </div>
                             <ul className="social-icon mt-3">

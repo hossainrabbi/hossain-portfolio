@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, animateScroll } from 'react-scroll';
 import './NavBar.css';
 
 const NavBar = () => {
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    };
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
-        <Navbar className="nav-bar" expand="lg" fixed="top">
+        <Navbar
+            className={navbar ? 'nav-bar active-nav pt-2' : 'nav-bar pt-3'}
+            expand="lg"
+            fixed="top"
+        >
             <Container>
                 <Navbar.Brand
                     href="#"

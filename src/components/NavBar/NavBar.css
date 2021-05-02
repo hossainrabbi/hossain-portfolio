@@ -8,3 +8,18 @@
 .nav-bar .active {
     color: var(--main-color) !important;
 }
+
+.nav-bar.active-nav {
+    background-color: var(--light-color);
+    transition: 0.3s;
+    box-shadow: var(--shadow-dark);
+}
+
+.nav-bar.active-nav .navbar-brand,
+.nav-bar.active-nav .nav-link {
+    color: var(--dark-color) !important;
+}
+
+.nav-bar.active-nav .active {
+    color: var(--main-color) !important;
+}
