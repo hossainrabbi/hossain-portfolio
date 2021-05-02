@@ -19,12 +19,10 @@ const Projects = () => {
                     <h2 className="text-center">Projects</h2>
                 </div>
                 <Row className="align-items-center mb-5 pb-5">
-                    <Col
-                        md={6}
-                        className="project-image"
-                        data-aos="zoom-in-right"
-                    >
-                        <img src={fixtech} alt="FixTech" />
+                    <Col md={6} data-aos="zoom-in-right">
+                        <div className="project-image">
+                            <img src={fixtech} alt="FixTech" />
+                        </div>
                     </Col>
                     <Col
                         md={6}
@@ -62,22 +60,18 @@ const Projects = () => {
                             liveSite="https://street-riders.web.app/"
                         />
                     </Col>
-                    <Col
-                        md={6}
-                        className="project-image"
-                        data-aos="zoom-in-left"
-                    >
-                        <img src={street_riders} alt="Street Riders" />
+                    <Col md={6} data-aos="zoom-in-left">
+                        <div className="project-image">
+                            <img src={street_riders} alt="Street Riders" />
+                        </div>
                     </Col>
                 </Row>
 
                 <Row className="align-items-center">
-                    <Col
-                        md={6}
-                        className="project-image"
-                        data-aos="zoom-in-right"
-                    >
-                        <img src={pabna_foods} alt="Pabna Foods" />
+                    <Col md={6} data-aos="zoom-in-right">
+                        <div className="project-image">
+                            <img src={pabna_foods} alt="Pabna Foods" />
+                        </div>
                     </Col>
                     <Col
                         md={6}

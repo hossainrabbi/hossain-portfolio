@@ -9,7 +9,7 @@
     --shadow-dark: 0 0 20px #00000038;
     --shadow-light: 0 0 3px #00000073;
     --radius: 5px;
-    --transition: 0.3s;
+    --transition: 0.5s;
 }
 
 body {

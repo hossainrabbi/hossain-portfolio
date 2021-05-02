@@ -9,6 +9,15 @@
     box-shadow: var(--shadow-dark);
 }
 
-.blog img {
+.blog .blog-img {
+    overflow: hidden;
+}
+
+.blog .blog-img img {
     height: 180px;
+    transition: var(--transition);
+}
+
+.blog .blog-img img:hover {
+    transform: scale(1.2);
 }

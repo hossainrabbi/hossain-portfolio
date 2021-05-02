@@ -1,12 +1,15 @@
 .projects .project-image {
     width: 100%;
-    box-shadow: var(--shadow-light);
+    overflow: hidden;
+}
+
+.projects .project-image img {
     transition: var(--transition);
     border-radius: var(--radius);
 }
 
-.projects .project-image:hover {
-    box-shadow: var(--shadow-dark);
+.projects .project-image img:hover {
+    transform: scale(1.2);
 }
 
 /* Projects Technology Component */

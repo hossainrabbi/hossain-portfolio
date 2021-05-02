@@ -4,7 +4,9 @@ import { Card } from 'react-bootstrap';
 const Blog = ({ title, desc, image, link, aosProps }) => {
     return (
         <Card className="blog mb-4" data-aos={aosProps}>
-            <Card.Img variant="top" src={image} alt={title} />
+            <div className="blog-img">
+                <Card.Img variant="top" src={image} alt={title} />
+            </div>
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>
