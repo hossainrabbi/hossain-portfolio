@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { SkillBars } from 'react-skills';
 import { skills1, skills2 } from '../../data/skills.data';
+import Skill from './Skill';
 import './Skills.css';
 
 const Skills = () => {
@@ -12,11 +12,19 @@ const Skills = () => {
                     <h2 className="text-center">My Skills</h2>
                 </div>
                 <Row>
-                    <Col md={6} className="custom-skill-bar">
-                        <SkillBars flat={true} skills={skills1} />
+                    <Col md={6}>
+                        <div className="skill-bars">
+                            {skills1.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
+                        </div>
                     </Col>
-                    <Col md={6} className="custom-skill-bar">
-                        <SkillBars flat={true} skills={skills2} />
+                    <Col md={6}>
+                        <div className="skill-bars">
+                            {skills2.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
+                        </div>
                     </Col>
                 </Row>
             </Container>

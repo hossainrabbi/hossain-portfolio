@@ -11,7 +11,12 @@ const Blog = ({ title, desc, image, link }) => {
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>
                     {desc}
-                    <a href={link} target="_blank" rel="noreferrer">
+                    <a
+                        href={link}
+                        className="main-color"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         See More
                     </a>
                 </Card.Text>

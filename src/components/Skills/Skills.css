@@ -1,25 +1,112 @@
-.custom-skill-bar div div {
-    height: 20px !important;
-    border-radius: 0 !important;
+.skill-bars {
+    width: 100%;
+}
+.skill-bars .bar {
+    margin: 20px 0;
+}
+.skill-bars .bar:first-child {
+    margin-top: 0px;
+}
+.skill-bars .bar .info {
+    margin-bottom: 5px;
+}
+.skill-bars .bar .info span {
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+.skill-bars .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background-color: var(--gray-color);
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: var(--shadow-inset);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+.bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color: var(--main-color);
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
-.custom-skill-bar div div h5 {
-    font-size: 15px !important;
-    text-align: left;
-    height: inherit;
-    padding: 1px 5px;
+.progress-line span::before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: var(--dark-color);
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+.progress-line.html span::after {
+    content: '90%';
+}
+.progress-line.css span::after {
+    content: '90%';
+}
+.progress-line.bootstrap span::after {
+    content: '85%';
+}
+.progress-line.scss span::after {
+    content: '50%';
+}
+.progress-line.javascript span::after {
+    content: '70%';
 }
 
-.custom-skill-bar div span {
-    font-size: 13px !important;
-    line-height: 24px !important;
-    height: inherit !important;
+.progress-line.react span::after {
+    content: '80%';
 }
-
-.custom-skill-bar > div > div > div > div {
-    width: 120px !important;
+.progress-line.reactbootstrap span::after {
+    content: '85%';
 }
-
-.custom-skill-bar > div > div > div > div:last-child {
-    background-color: var(--gray-color) !important;
+.progress-line.materialui span::after {
+    content: '55%';
+}
+.progress-line.express span::after {
+    content: '40%';
+}
+.progress-line.mongodb span::after {
+    content: '35%';
 }
