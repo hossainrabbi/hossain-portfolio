@@ -16,7 +16,7 @@ function App() {
         setLoading(true);
         const timing = setTimeout(() => {
             setLoading(false);
-        }, 2000);
+        }, 3000);
 
         return () => clearTimeout(timing);
     }, []);

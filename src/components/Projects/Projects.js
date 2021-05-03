@@ -16,7 +16,7 @@ const Projects = () => {
         <section className="projects" id="projects">
             <Container>
                 <div className="main-title">
-                    <h2 className="text-center">Projects</h2>
+                    <h2 className="text-center">My Projects</h2>
                 </div>
                 <Row className="align-items-center mb-5 pb-5">
                     <Col md={6}>

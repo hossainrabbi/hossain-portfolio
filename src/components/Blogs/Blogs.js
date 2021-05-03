@@ -9,7 +9,7 @@ const Blogs = () => {
         <section id="blog">
             <Container>
                 <div className="main-title">
-                    <h2 className="text-center">Article</h2>
+                    <h2 className="text-center">My Blog</h2>
                 </div>
                 <Row className="justify-content-center">
                     {article.map((blog) => (
