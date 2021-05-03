@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import { Fade, Bounce } from 'react-reveal';
 import { address1, address2 } from '../../data/address.data';
 import Address from './Address';
 import hossain from '../../images/hossainRabbi.jpg';
@@ -10,18 +11,24 @@ const About = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={5}>
-                        <img
-                            src={hossain}
-                            alt="hossain"
-                            className="img-fluid img-thumbnail"
-                        />
+                        <Fade left>
+                            <img
+                                src={hossain}
+                                alt="hossain"
+                                className="img-fluid img-thumbnail"
+                            />
+                        </Fade>
                     </Col>
                     <Col md={7}>
-                        <div>
-                            <div className="main-title">
-                                <h2>About Me</h2>
-                            </div>
-                            <div className="about-content">
+                        <div className="main-title">
+                            <h2>
+                                <Bounce top cascade>
+                                    About Me
+                                </Bounce>
+                            </h2>
+                        </div>
+                        <div className="about-content">
+                            <Fade right>
                                 <p className="mt-4">
                                     A self-motivated, energetic, and passionate
                                     professional web Development with valuable
@@ -67,7 +74,7 @@ const About = () => {
                                         Download Resume
                                     </a>
                                 </div>
-                            </div>
+                            </Fade>
                         </div>
                     </Col>
                 </Row>

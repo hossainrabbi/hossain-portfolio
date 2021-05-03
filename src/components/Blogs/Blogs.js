@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Bounce } from 'react-reveal';
 import { article } from '../../data/article.data';
 import Blog from './Blog';
 import './Blogs.css';
@@ -9,7 +10,11 @@ const Blogs = () => {
         <section id="blog">
             <Container>
                 <div className="main-title">
-                    <h2 className="text-center">My Blog</h2>
+                    <h2 className="text-center">
+                        <Bounce left cascade>
+                            My Blog
+                        </Bounce>
+                    </h2>
                 </div>
                 <Row className="justify-content-center">
                     {article.map((blog) => (
