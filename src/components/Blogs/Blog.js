@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Fade } from 'react-reveal';
 
-const Blog = ({ title, desc, image, link, reveal }) => {
+const Blog = ({ title, desc, image, link }) => {
     return (
         <Fade>
             <Card className="blog mb-4">
