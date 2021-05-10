@@ -1,33 +1,33 @@
-import javaScript from '../images/blogs/javaScript.jpg';
+import aboutJavaScript from '../images/blogs/aboutJavaScript.jpeg';
+import JavaScriptModernSyntax from '../images/blogs/JavaScriptModernSyntax.jpg';
 import react from '../images/blogs/react.png';
-import reactRouter from '../images/blogs/react-router.png';
 
 export const article = [
     {
         id: 1,
-        title: 'Simple Introduction to JavaScript',
+        title: 'Something about JavaScript',
         desc:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore quasi harum. Officiis sed maiores…',
-        image: javaScript,
-        aosProps: 'flip-left',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+            'JavaScript is a client-side and server-side scripting language that is embedded in HTML pages and understood by web browsers…',
+        image: aboutJavaScript,
+        link:
+            'https://hossainrabbi.medium.com/something-about-javascript-fc972912dc9e',
     },
     {
         id: 2,
-        title: 'Simple Introduction to React.js',
+        title: 'Understand JavaScript modern syntax',
         desc:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore quasi harum. Officiis sed maiores…',
-        image: react,
-        aosProps: 'flip-up',
-        link: 'https://reactjs.org/',
+            'Default parameters: In general, the default value of the function parameter in JavaScript is undefined…',
+        image: JavaScriptModernSyntax,
+        link:
+            'https://hossainrabbi.medium.com/understand-javascript-modern-syntax-and-some-functionality-7cf9a079aca8',
     },
     {
         id: 3,
-        title: 'Simple Introduction to React Router',
+        title: 'React fundamentals concept',
         desc:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore quasi harum. Officiis sed maiores…',
-        image: reactRouter,
-        aosProps: 'flip-right',
-        link: 'https://reactrouter.com/web/guides/quick-start',
+            'React is a front-end JavaScript library created by Facebook. It follows a component-based approach that helps…',
+        image: react,
+        link:
+            'https://hossainrabbi.medium.com/react-fundamentals-concept-4f0ac0796d66',
     },
 ];
