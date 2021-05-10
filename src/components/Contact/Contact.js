@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import { Col, Container, Form, Row } from 'react-bootstrap';
-import { Bounce } from 'react-reveal';
+import { Bounce, Slide } from 'react-reveal';
 
 const Contact = () => {
     function sendEmail(e) {
@@ -46,41 +46,35 @@ const Contact = () => {
                 </div>
                 <Row className="justify-content-center">
                     <Col md={9}>
-                        <Form onSubmit={sendEmail}>
-                            <Form.Row className="mb-3">
-                                <Col sm={6} className="mb-sm-0 mb-3">
-                                    <Bounce left>
+                        <Slide bottom>
+                            <Form onSubmit={sendEmail}>
+                                <Form.Row className="mb-3">
+                                    <Col sm={6} className="mb-sm-0 mb-3">
                                         <Form.Control
                                             type="text"
                                             placeholder="Name*"
                                             name="name"
                                             required
                                         />
-                                    </Bounce>
-                                </Col>
-                                <Col sm={6}>
-                                    <Bounce right>
+                                    </Col>
+                                    <Col sm={6}>
                                         <Form.Control
                                             type="email"
                                             placeholder="Email*"
                                             name="email"
                                             required
                                         />
-                                    </Bounce>
-                                </Col>
-                            </Form.Row>
-                            <Form.Group>
-                                <Bounce top>
+                                    </Col>
+                                </Form.Row>
+                                <Form.Group>
                                     <Form.Control
                                         type="text"
                                         placeholder="Subject*"
                                         name="subject"
                                         required
                                     />
-                                </Bounce>
-                            </Form.Group>
-                            <Form.Group>
-                                <Bounce bottom>
+                                </Form.Group>
+                                <Form.Group>
                                     <Form.Control
                                         as="textarea"
                                         rows={3}
@@ -88,19 +82,17 @@ const Contact = () => {
                                         name="message"
                                         required
                                     />
-                                </Bounce>
-                            </Form.Group>
-                            <div className="text-center">
-                                <Bounce>
+                                </Form.Group>
+                                <div className="text-center">
                                     <button
                                         className="btn custom-btn"
                                         type="submit"
                                     >
                                         Submit
                                     </button>
-                                </Bounce>
-                            </div>
-                        </Form>
+                                </div>
+                            </Form>
+                        </Slide>
                     </Col>
                 </Row>
             </Container>

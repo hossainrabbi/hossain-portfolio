@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Zoom } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 const Blog = ({ title, desc, image, link, reveal }) => {
     return (
-        <Zoom bottom>
+        <Fade>
             <Card className="blog mb-4">
                 <div className="blog-img">
                     <Card.Img variant="top" src={image} alt={title} />
@@ -24,7 +24,7 @@ const Blog = ({ title, desc, image, link, reveal }) => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-        </Zoom>
+        </Fade>
     );
 };
 
