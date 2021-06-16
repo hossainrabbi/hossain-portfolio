@@ -3,13 +3,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Slide, Zoom } from 'react-reveal';
 import {
     fixTechTechnology,
-    FoodsTechnology,
+    MobileTechnology,
     RidersTechnology,
 } from '../../data/projects.data';
 import './Projects.css';
 import fixtech from '../../images/projects/fix_tech.png';
 import street_riders from '../../images/projects/street_riders.png';
-import pabna_foods from '../../images/projects/pabna_foods.png';
+import mobile_ghor from '../../images/projects/mobile_ghor.png';
 import ProjectDetail from './ProjectDetail';
 
 const Projects = () => {
@@ -64,34 +64,30 @@ const Projects = () => {
                         </Slide>
                     </Col>
                     <Col md={6}>
-                        <div className="project-image">
-                            <Slide right>
+                        <Slide right>
+                            <div className="project-image">
                                 <img src={street_riders} alt="Street Riders" />
-                            </Slide>
-                        </div>
+                            </div>
+                        </Slide>
                     </Col>
                 </Row>
 
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <div className="project-image">
-                            <Slide left>
-                                <img src={pabna_foods} alt="Pabna Foods" />
-                            </Slide>
-                        </div>
+                        <Slide left>
+                            <div className="project-image">
+                                <img src={mobile_ghor} alt="Mobile Ghor" />
+                            </div>
+                        </Slide>
                     </Col>
                     <Col md={6} className="project-details pl-4">
                         <Slide right>
                             <ProjectDetail
-                                title="Pabna Foods"
-                                desc="A single-page Online Food Delivery application. Where people can see
-                            different food items, If you click on any food, you
-                            will be able to see the details of the food and you
-                            will be able to search the food by the name of the
-                            food."
-                                useTechnology={FoodsTechnology}
-                                sourceCode="https://github.com/hossainrabbi/pabna-foods"
-                                liveSite="https://pabna-foods.netlify.app/"
+                                title="Mobile Ghor"
+                                desc="A single-page Online Mobile Shop application. Where people can see different mobile items If users click on any mobile, users will be able to see the mobile details. Users can add products to the cart. Users can remove added data from the cart."
+                                useTechnology={MobileTechnology}
+                                sourceCode="https://github.com/hossainrabbi/mobile-ghor"
+                                liveSite="https://mobile-ghor.netlify.app/"
                             />
                         </Slide>
                     </Col>

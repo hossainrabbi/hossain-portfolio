@@ -9,4 +9,4 @@ export const fixTechTechnology = [
 
 export const RidersTechnology = ['React.js', 'React Bootstrap', 'Firebase'];
 
-export const FoodsTechnology = ['React.js', 'React Bootstrap'];
+export const MobileTechnology = ['React.js', 'Redux.js', 'Styled-component'];

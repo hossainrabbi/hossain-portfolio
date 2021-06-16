@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { LightSpeed, Zoom } from 'react-reveal';
+import { Zoom } from 'react-reveal';
 import { skills1, skills2 } from '../../data/skills.data';
 import Skill from './Skill';
 import './Skills.css';
@@ -18,22 +18,18 @@ const Skills = () => {
                 </div>
                 <Row>
                     <Col md={6}>
-                        <LightSpeed left>
-                            <div className="skill-bars">
-                                {skills1.map((skill) => (
-                                    <Skill {...skill} key={skill.id} />
-                                ))}
-                            </div>
-                        </LightSpeed>
+                        <div className="skill-bars">
+                            {skills1.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
+                        </div>
                     </Col>
                     <Col md={6}>
-                        <LightSpeed right>
-                            <div className="skill-bars">
-                                {skills2.map((skill) => (
-                                    <Skill {...skill} key={skill.id} />
-                                ))}
-                            </div>
-                        </LightSpeed>
+                        <div className="skill-bars">
+                            {skills2.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
+                        </div>
                     </Col>
                 </Row>
             </Container>
