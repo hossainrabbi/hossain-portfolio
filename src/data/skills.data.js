@@ -19,24 +19,24 @@ export const skills1 = [
     },
     {
         id: 4,
-        name: 'SCSS',
-        bar: 'scss',
-        skill: 50,
-    },
-    {
-        id: 5,
         name: 'JavaScript',
         bar: 'javascript',
         skill: 70,
+    },
+    {
+        id: 5,
+        name: 'React.js',
+        bar: 'react',
+        skill: 80,
     },
 ];
 
 export const skills2 = [
     {
         id: 1,
-        name: 'React.js',
-        bar: 'react',
-        skill: 80,
+        name: 'Redux.js',
+        bar: 'redux',
+        skill: 50,
     },
     {
         id: 2,

@@ -88,7 +88,7 @@
 .progress-line.bootstrap span::after {
     content: '85%';
 }
-.progress-line.scss span::after {
+.progress-line.redux span::after {
     content: '50%';
 }
 .progress-line.javascript span::after {
