@@ -66,7 +66,7 @@ const About = () => {
                                 </Row>
                                 <div className="mt-4">
                                     <a
-                                        href="https://drive.google.com/uc?export=download&id=1fVo3bM-KbzamcjqNei7nmERnqkjfTRV0"
+                                        href="https://drive.google.com/uc?export=download&id=1VfeoOr4U2rxx-EkqdgGE4lZc2givou_r"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="btn custom-btn"
