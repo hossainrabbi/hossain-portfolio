@@ -19,17 +19,17 @@ export const social = [
     },
     {
         id: 3,
-        link: 'https://www.facebook.com/hossainrabbi71/',
+        link: 'https://www.facebook.com/hossainrabbibd/',
         icon: faFacebookF,
     },
     {
         id: 4,
-        link: 'https://www.instagram.com/hossainrabbi71/',
+        link: 'https://www.instagram.com/hossainrabbibd/',
         icon: faInstagram,
     },
     {
         id: 5,
-        link: 'https://twitter.com/hossainrabbi71',
+        link: 'https://twitter.com/hossainrabbibd',
         icon: faTwitter,
     },
 ];
