@@ -40,9 +40,9 @@ export const skills2 = [
     },
     {
         id: 2,
-        name: 'React BootStrap',
-        bar: 'reactbootstrap',
-        skill: 85,
+        name: 'Tailwind CSS',
+        bar: 'tailwindcss',
+        skill: 60,
     },
     {
         id: 3,

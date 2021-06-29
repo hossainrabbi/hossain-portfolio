@@ -4,11 +4,11 @@ import { Slide, Zoom } from 'react-reveal';
 import {
     fixTechTechnology,
     MobileTechnology,
-    RidersTechnology,
+    realCoolTechnology,
 } from '../../data/projects.data';
 import './Projects.css';
 import fixtech from '../../images/projects/fix_tech.png';
-import street_riders from '../../images/projects/street_riders.png';
+import real_cool from '../../images/projects/realCool.png';
 import mobile_ghor from '../../images/projects/mobile_ghor.png';
 import ProjectDetail from './ProjectDetail';
 
@@ -35,10 +35,7 @@ const Projects = () => {
                         <Slide right>
                             <ProjectDetail
                                 title="FixTech"
-                                desc="A single-page Computer Services application where people can book
-                            services but must pay when booking services. He will
-                            be able to see his previous bookings and booking
-                            status and people will be able to review them here."
+                                desc="This is a computer service website. Here the user will be able to make service bookings. Before booking, the user has to log in and the payment system has been done with Stripe. It will be pending when the user has a booking. Admin can change its status, add a new service, and can make someone else the admin. And the user will be able to review the website."
                                 useTechnology={fixTechTechnology}
                                 sourceCode="https://github.com/hossainrabbi/fixtech-client"
                                 liveSite="https://fixtech-hr.web.app/"
@@ -51,22 +48,18 @@ const Projects = () => {
                     <Col md={6} className="project-details pl-4">
                         <Slide left>
                             <ProjectDetail
-                                title="Street Riders"
-                                desc="A single-page Riders Sharing application. People will be able to
-                            move the car of their choice from one place to
-                            another. There are 4 ways to go by train, car, bike,
-                            and bus. A search of his destination will show how
-                            much the fare is for how many people."
-                                useTechnology={RidersTechnology}
-                                sourceCode="https://github.com/hossainrabbi/street-riders"
-                                liveSite="https://street-riders.web.app/"
+                                title="Real Cool"
+                                desc="This is an air conditioning Services Website and it is just a static page. It has a few sections with material UI. And it's responsive for medium and mobile devices."
+                                useTechnology={realCoolTechnology}
+                                sourceCode="https://github.com/hossainrabbi/real-cool"
+                                liveSite="https://real-cool.netlify.app/"
                             />
                         </Slide>
                     </Col>
                     <Col md={6}>
                         <Slide right>
                             <div className="project-image">
-                                <img src={street_riders} alt="Street Riders" />
+                                <img src={real_cool} alt="Street Riders" />
                             </div>
                         </Slide>
                     </Col>
@@ -84,7 +77,7 @@ const Projects = () => {
                         <Slide right>
                             <ProjectDetail
                                 title="Mobile Ghor"
-                                desc="A single-page Online Mobile Shop application. Where people can see different mobile items If users click on any mobile, users will be able to see the mobile details. Users can add products to the cart. Users can remove added data from the cart."
+                                desc="This is a mobile shop app. Some product data is in the Jason file. There are some mobile products on the home page. Clicking on the mobile item will show the details of that item. Clicking on add to cart will store the data in the cart. And redux-persist has been used to store the data in localStorage."
                                 useTechnology={MobileTechnology}
                                 sourceCode="https://github.com/hossainrabbi/mobile-ghor"
                                 liveSite="https://mobile-ghor.netlify.app/"

@@ -30,10 +30,12 @@ const About = () => {
                         <div className="about-content">
                             <Fade right>
                                 <p className="mt-4">
-                                    A self-motivated, energetic, and passionate
-                                    professional web Development with valuable
-                                    experience in HTML, CSS, JavaScript and
-                                    React JS.
+                                    Always ready to prove myself through my work
+                                    and responsibility. To establish myself as
+                                    an outstanding performer, Discovering
+                                    something new every single day is one of my
+                                    favorite parts of being a High-Level
+                                    programmer.
                                 </p>
                                 <p>
                                     I enjoy turning complex problems into

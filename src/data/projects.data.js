@@ -7,6 +7,6 @@ export const fixTechTechnology = [
     'MongoDB',
 ];
 
-export const RidersTechnology = ['React.js', 'React Bootstrap', 'Firebase'];
+export const realCoolTechnology = ['React.js', 'Material UI'];
 
 export const MobileTechnology = ['React.js', 'Redux.js', 'Styled-component'];

@@ -98,8 +98,8 @@
 .progress-line.react span::after {
     content: '80%';
 }
-.progress-line.reactbootstrap span::after {
-    content: '85%';
+.progress-line.tailwindcss span::after {
+    content: '60%';
 }
 .progress-line.materialui span::after {
     content: '55%';
